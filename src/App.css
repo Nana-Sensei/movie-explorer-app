@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+
+
+
+.App {
+  background: linear-gradient(45deg, #1d0240 0%, #04041e 100%, #002047);
+  padding-bottom: 130px;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+.carousel-item {
+  margin-right: 0;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
+}
+
+.seemoreBtn {
+  color: #010e30;
+  background: #00d3be;
+  border: none;
+  border-radius: 5px;
+  padding: 7.5px 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+.movie-title {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+
+.watch-btn {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background-color: #007bd3;
+  border: none;
+}
+
+.watch-btn:hover {
+  color: #00d3be;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background-color: #010e30;
+  border: none;
+}
+
+
+.loadmoreBtn {
+  overFlow: hidden;
+  float: left;
+  color: #010e30;
+  background: #00d3be;
+  border: none;
+  border-radius: 5px;
+  padding: 7.5px 15px;
+  margin-top: 30px;
+  margin-bottom: 50px
+}
+
+
+.topBtn {
+  overFlow: hidden;
+  float: right;
+  color: #010e30;
+  background: #00d3be;
+  border: none;
+  border-radius: 5px;
+  padding: 7.5px 15px;
+  margin-top: 30px;
+  margin-bottom: 50px
+}
+
+
+.footer {
+  margin-top: 70px;
+  padding: 50px;
+  background-color: #f3f3f3;
+}
